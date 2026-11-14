@@ -1,0 +1,5 @@
+Class ID,Defect Category,Support (N),True Positives (TP),False Positives (FP),False Negatives (FN),Precision (%),Recall (%),F1-Score (%)
+0,Longitudinal / Warp Flaw (Vertical),13,12,0,1,100.0,92.31,96.0
+1,Transverse / Weft Flaw (Horizontal),11,10,1,1,90.91,90.91,90.91
+2,Localized Micro-Puncture / Hole,23,23,1,0,95.83,100.0,97.87
+3,Photometric Contaminant (dark diffuse region),6,6,0,0,100.0,100.0,100.0

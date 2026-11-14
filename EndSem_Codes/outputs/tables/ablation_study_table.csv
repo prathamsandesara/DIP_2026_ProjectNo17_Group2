@@ -1,0 +1,5 @@
+Configuration,Web Alignment,2D FFT Notch,Accuracy (%),Recall (%),Precision (%),Specificity (%),Pooled Dice (%),Macro Dice (%),TP,FN,FP,TN,Runtime (s)
+1. Baseline (dual-scale morphology),False,False,74.07,71.7,86.36,78.57,72.59,29.71,38,15,6,22,8.16
+2. + Web alignment,True,False,74.07,71.7,86.36,78.57,74.5,29.94,38,15,6,22,8.46
+3. + 2D FFT notch,False,True,79.01,79.25,87.5,78.57,72.35,29.73,42,11,6,22,9.03
+4. Full pipeline,True,True,79.01,79.25,87.5,78.57,74.24,29.96,42,11,6,22,10.72

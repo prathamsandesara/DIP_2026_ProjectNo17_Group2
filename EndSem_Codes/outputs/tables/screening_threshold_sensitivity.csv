@@ -1,0 +1,7 @@
+"Roll-screening rule (Stage 4, test split)",Accuracy (%),Recall (%),Precision (%),Specificity (%),TP,FN,FP,TN
+uniform 1 px,79.01,86.79,82.14,64.29,46,7,10,18
+uniform 5 px,77.78,84.91,81.82,64.29,45,8,10,18
+uniform 15 px (HEADLINE),79.01,79.25,87.5,78.57,42,11,6,22
+uniform 30 px,75.31,71.7,88.37,82.14,38,15,5,23
+uniform 50 px,69.14,62.26,86.84,82.14,33,20,5,23
+"legacy per-fabric map {00:10,01:5,02:10,03:8, others:15} (hand-set, untuned provenance)",81.48,83.02,88.0,78.57,44,9,6,22

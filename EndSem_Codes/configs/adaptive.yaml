@@ -1,0 +1,28 @@
+adaptive:
+  parameter_mapping:
+    large_scale_ratio: 2.0
+    max_glcm_window: 33
+    max_lbp_radius: 8
+    min_glcm_window: 7
+    min_lbp_radius: 1
+    small_scale_ratio: 0.5
+  scale_estimation:
+    candidate_gabor_frequencies:
+    - 0.05
+    - 0.1
+    - 0.15
+    - 0.2
+    - 0.25
+    - 0.3
+    candidate_variance_windows:
+    - 5
+    - 9
+    - 13
+    - 17
+    - 21
+    gabor_sigma: 3.0
+    variance_cv_tolerance: 0.35
+pipeline_name: adaptive
+segmentation:
+  local_k: -0.2
+  method: local

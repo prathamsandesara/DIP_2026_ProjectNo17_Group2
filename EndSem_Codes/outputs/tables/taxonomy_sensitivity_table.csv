@@ -1,0 +1,6 @@
+Perturbation Label,Threshold Scale,Oracle Accuracy (%),Oracle Correct,End-to-end Accuracy (%),End-to-end Correct
+-20%,0.8,90.57,48/53,43.4,23/53
+-10%,0.9,94.34,50/53,45.28,24/53
++0%,1.0,96.23,51/53,43.4,23/53
++10%,1.1,92.45,49/53,45.28,24/53
++20%,1.2,88.68,47/53,43.4,23/53

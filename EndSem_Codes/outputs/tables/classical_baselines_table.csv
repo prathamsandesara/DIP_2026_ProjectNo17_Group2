@@ -1,0 +1,7 @@
+Baseline Method,Accuracy (%),Recall (%),Precision (%),Specificity (%),Pooled Dice (%),Mean Dice (%),TP,FN,FP,TN,Runtime (s)
+1. Naive Global Otsu (Raw Strip),65.43,100.0,65.43,0.0,1.48,1.84,53,0,28,0,1.04
+2. Fair Global Otsu (Active Mask),65.43,100.0,65.43,0.0,2.15,1.91,53,0,28,0,1.12
+3. Gaussian Residual (Clean 99.9%ile),61.73,94.34,64.1,0.0,2.95,5.17,50,3,28,0,1.18
+4. Gaussian Residual (Clean 99.99%ile),43.21,20.75,73.33,85.71,0.19,0.56,11,42,4,24,1.18
+5. Top-Hat Morphology (Clean 99.9%ile),69.14,81.13,74.14,46.43,2.48,5.53,43,10,15,13,1.15
+6. Top-Hat Morphology (Clean 99.99%ile),54.32,43.4,76.67,75.0,2.51,5.11,23,30,7,21,1.16

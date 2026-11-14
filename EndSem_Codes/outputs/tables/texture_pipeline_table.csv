@@ -1,0 +1,5 @@
+Texture-descriptor detector,Accuracy (%),Recall (%),Precision (%),Specificity (%),Pooled Dice (%),Macro Dice (%),TP,FN,FP,TN
+"LBP only (uniform, P=16, R=2)",59.26,69.81,68.52,39.29,14.69,1.59,37,16,17,11
+"GLCM only (Haralick features, 17x17 window)",61.73,69.81,71.15,46.43,7.23,1.58,37,16,15,13
+"Gabor only (4 orientations, f=0.15)",53.09,52.83,68.29,53.57,10.12,1.62,28,25,13,15
+LBP + GLCM + Gabor fused (equal weights),60.49,67.92,70.59,46.43,7.50,1.60,36,17,15,13

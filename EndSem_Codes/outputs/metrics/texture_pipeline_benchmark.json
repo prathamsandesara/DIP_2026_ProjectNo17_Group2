@@ -1,0 +1,68 @@
+{
+  "protocol": "fit on 85 clean train rolls only; one uniform screening_min_px=15; threshold = 99.99th percentile of per-fabric train deviation",
+  "scale": {
+    "name": "medium",
+    "lbp_radius": 2,
+    "lbp_points": 16,
+    "glcm_window": 17,
+    "glcm_distance": 2,
+    "gabor_frequency": 0.15,
+    "gabor_sigma": 4.0
+  },
+  "fit_time_s": 224.5,
+  "eval_time_s": 129.7,
+  "configs": {
+    "lbp": {
+      "accuracy_pct": 59.25925925925926,
+      "recall_pct": 69.81132075471699,
+      "precision_pct": 68.51851851851852,
+      "specificity_pct": 39.285714285714285,
+      "pooled_dice_pct": 14.686949146778637,
+      "macro_dice_pct": 1.586459246876112,
+      "tp": 37,
+      "fn": 16,
+      "fp": 17,
+      "tn": 11,
+      "skipped_unknown_fabric": 0
+    },
+    "glcm": {
+      "accuracy_pct": 61.72839506172839,
+      "recall_pct": 69.81132075471699,
+      "precision_pct": 71.15384615384616,
+      "specificity_pct": 46.42857142857143,
+      "pooled_dice_pct": 7.232177687635224,
+      "macro_dice_pct": 1.5787140524967653,
+      "tp": 37,
+      "fn": 16,
+      "fp": 15,
+      "tn": 13,
+      "skipped_unknown_fabric": 0
+    },
+    "gabor": {
+      "accuracy_pct": 53.08641975308642,
+      "recall_pct": 52.83018867924528,
+      "precision_pct": 68.29268292682927,
+      "specificity_pct": 53.57142857142857,
+      "pooled_dice_pct": 10.11514101227883,
+      "macro_dice_pct": 1.6195357395341243,
+      "tp": 28,
+      "fn": 25,
+      "fp": 13,
+      "tn": 15,
+      "skipped_unknown_fabric": 0
+    },
+    "fused": {
+      "accuracy_pct": 60.49382716049383,
+      "recall_pct": 67.9245283018868,
+      "precision_pct": 70.58823529411765,
+      "specificity_pct": 46.42857142857143,
+      "pooled_dice_pct": 7.500972489810828,
+      "macro_dice_pct": 1.601996932373308,
+      "tp": 36,
+      "fn": 17,
+      "fp": 15,
+      "tn": 13,
+      "skipped_unknown_fabric": 0
+    }
+  }
+}

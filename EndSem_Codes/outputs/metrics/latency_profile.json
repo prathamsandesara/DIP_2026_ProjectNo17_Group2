@@ -1,0 +1,22 @@
+{
+  "num_rolls_profiled": 15,
+  "hardware_environment": "CPU single-threaded sequential execution",
+  "stages": {
+    "active_mask_ms": 2.95,
+    "radon_web_alignment_ms": 8.83,
+    "fft_weave_notch_ms": 35.56,
+    "micro_morphology_ms": 7.34,
+    "macro_morphology_ms": 15.24,
+    "consensus_closing_ms": 3.41,
+    "taxonomy_classification_ms": 43.7,
+    "total_measured_roll_ms": 117.05
+  },
+  "standard_deviations": {
+    "radon_web_alignment_std_ms": 1.6,
+    "fft_weave_notch_std_ms": 10.02,
+    "micro_morphology_std_ms": 1.01,
+    "macro_morphology_std_ms": 1.43,
+    "consensus_closing_std_ms": 0.13
+  },
+  "fps_line_rate": 8.54
+}

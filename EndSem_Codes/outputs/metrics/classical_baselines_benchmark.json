@@ -1,0 +1,97 @@
+{
+  "total_test_rolls": 81,
+  "defective_rolls": 53,
+  "clean_rolls": 28,
+  "calibration": {
+    "gauss_p99_9": 63.55105209350586,
+    "gauss_p99_99": 106.4387435913086,
+    "tophat_p99_9": 113.0,
+    "tophat_p99_99": 129.58380126953125
+  },
+  "baselines": [
+    {
+      "name": "1. Naive Global Otsu (Raw Strip)",
+      "accuracy_pct": 65.43,
+      "recall_pct": 100.0,
+      "precision_pct": 65.43,
+      "specificity_pct": 0.0,
+      "pooled_dice_pct": 1.48,
+      "mean_dice_pct": 1.84,
+      "tp": 53,
+      "fn": 0,
+      "fp": 28,
+      "tn": 0,
+      "runtime_s": 1.04
+    },
+    {
+      "name": "2. Fair Global Otsu (Active Mask)",
+      "accuracy_pct": 65.43,
+      "recall_pct": 100.0,
+      "precision_pct": 65.43,
+      "specificity_pct": 0.0,
+      "pooled_dice_pct": 2.15,
+      "mean_dice_pct": 1.91,
+      "tp": 53,
+      "fn": 0,
+      "fp": 28,
+      "tn": 0,
+      "runtime_s": 1.12
+    },
+    {
+      "name": "3. Gaussian Residual (Clean 99.9%ile)",
+      "accuracy_pct": 61.73,
+      "recall_pct": 94.34,
+      "precision_pct": 64.1,
+      "specificity_pct": 0.0,
+      "pooled_dice_pct": 2.95,
+      "mean_dice_pct": 5.17,
+      "tp": 50,
+      "fn": 3,
+      "fp": 28,
+      "tn": 0,
+      "runtime_s": 1.18
+    },
+    {
+      "name": "4. Gaussian Residual (Clean 99.99%ile)",
+      "accuracy_pct": 43.21,
+      "recall_pct": 20.75,
+      "precision_pct": 73.33,
+      "specificity_pct": 85.71,
+      "pooled_dice_pct": 0.19,
+      "mean_dice_pct": 0.56,
+      "tp": 11,
+      "fn": 42,
+      "fp": 4,
+      "tn": 24,
+      "runtime_s": 1.18
+    },
+    {
+      "name": "5. Top-Hat Morphology (Clean 99.9%ile)",
+      "accuracy_pct": 69.14,
+      "recall_pct": 81.13,
+      "precision_pct": 74.14,
+      "specificity_pct": 46.43,
+      "pooled_dice_pct": 2.48,
+      "mean_dice_pct": 5.53,
+      "tp": 43,
+      "fn": 10,
+      "fp": 15,
+      "tn": 13,
+      "runtime_s": 1.15
+    },
+    {
+      "name": "6. Top-Hat Morphology (Clean 99.99%ile)",
+      "accuracy_pct": 54.32,
+      "recall_pct": 43.4,
+      "precision_pct": 76.67,
+      "specificity_pct": 75.0,
+      "pooled_dice_pct": 2.51,
+      "mean_dice_pct": 5.11,
+      "tp": 23,
+      "fn": 30,
+      "fp": 7,
+      "tn": 21,
+      "runtime_s": 1.16
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Defect Code,Official AITEX Defect Name,Physical Etiology / Mechanism,Taxonomy Category,Total in Dataset,Test Split N,Correct (TP),Classification Recall (%)
+000,Defect Free (Clean),Normal fabric with nominal weave rhythm,Nominal Background,140,28,28,100.0
+002,Broken End,Longitudinal warp yarn rupture along machine axis,Longitudinal / Warp Flaw,9,4,4,100.0
+006,Broken Yarn,Structural warp/weft filament discontinuity,Longitudinal / Warp Flaw,8,5,4,80.0
+010,Broken Pick,Missing or broken transverse pick across roll width,Transverse / Weft Flaw,10,5,5,100.0
+016,Weft Curling,Transverse filling yarn loop distortion,Transverse / Weft Flaw,3,1,1,100.0
+019,Fuzzyball,Tangled fiber ball / localized surface puncture,Localized Micro-Puncture / Hole,39,20,20,100.0
+022,Cut Selvage,Edge margin laceration / yarn shearing,Transverse / Weft Flaw,9,4,3,75.0
+023,Crease,Longitudinal fold mark pressed under roller tension,Longitudinal / Warp Flaw,5,3,3,100.0
+025,Warp Ball,Accumulated fiber knot / localized yarn snag,Localized Micro-Puncture / Hole,6,3,3,100.0
+027,Knots,Tied-off yarn knot anomaly along warp direction,Longitudinal / Warp Flaw,1,1,1,100.0
+029,Contamination,Foreign embedded fibrous matter (val-only),Photometric Contaminant,1,0,0,0.0
+030,Nep / Oil Spot,Photometric liquid dye / lubricant contaminant,Photometric Contaminant,14,6,6,100.0
+036,Weft Crack,Transverse filling gap / pick separation,Transverse / Weft Flaw,1,1,1,100.0

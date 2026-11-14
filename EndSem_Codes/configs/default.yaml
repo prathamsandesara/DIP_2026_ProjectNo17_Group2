@@ -1,0 +1,88 @@
+compute:
+  n_workers: 20
+confidence:
+  a: 0.4
+  b: 0.3
+  c: 0.3
+connected_components:
+  min_area: 5
+data:
+  mask_threshold: 127.0
+  raw:
+    defect_code_map: {}
+    defect_free_glob: NODefect_images/**/*.png
+    defect_glob: Defect_images/**/*.png
+    image_extensions:
+    - .png
+    - .jpg
+    - .jpeg
+    - .bmp
+    mask_glob: Mask_images/**/*.png
+  split:
+    random_seed: 42
+    test_ratio: 0.2
+    train_ratio: 0.6
+    val_ratio: 0.2
+deviation_smoothing:
+  method: wiener
+  window_size: 5
+evaluation:
+  image_level_min_area: 1
+feature_weights:
+  edge: 0.25
+  gabor: 0.25
+  glcm: 0.25
+  lbp: 0.25
+frequency_filter:
+  enabled: true
+  notch_radius: 12.0
+  order: 3
+  max_peaks: 16
+morphology:
+  closing_size: 9
+  fill_holes: true
+  min_component_area: 25
+  opening_size: 5
+paths:
+  dataset_root: data/raw
+  outputs_dir: outputs
+  processed_dir: data/processed
+  splits_dir: data/splits_oneclass
+preprocessing:
+  denoise:
+    alpha_d: 4
+    alpha_size: 3
+    gaussian_sigma: 1.0
+    geom_size: 3
+    median_size: 3
+    method: alpha_trimmed
+  enhancement:
+    clip_limit: 2.0
+    method: clahe
+    tile_grid_size: 8
+  normalization:
+    out_range:
+    - 0
+    - 255
+segmentation:
+  local_k: 1.2
+  local_window_size: 101
+  method: local
+texture:
+  gabor_orientations:
+  - 0.0
+  - 0.785398163
+  - 1.570796327
+  - 2.35619449
+  glcm_angles:
+  - 0.0
+  - 0.785398163
+  - 1.570796327
+  - 2.35619449
+  glcm_levels: 32
+threshold:
+  k: 3.0
+  method: percentile
+  percentile: 99.5
+visualization:
+  representative_samples_per_fabric: 2

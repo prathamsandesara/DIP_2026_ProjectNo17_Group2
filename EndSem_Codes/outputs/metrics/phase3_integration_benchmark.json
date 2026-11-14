@@ -1,0 +1,4341 @@
+{
+  "timestamp": "2026-11-09 12:41:27",
+  "benchmark_summary": [
+    {
+      "val_screening": {
+        "accuracy": 70.0,
+        "recall": 65.38,
+        "precision": 85.0,
+        "specificity": 78.57
+      },
+      "val_confusion_matrix": {
+        "tp": 34,
+        "fn": 18,
+        "fp": 6,
+        "tn": 22
+      },
+      "val_pooled_dice_defective_pct": 4.31,
+      "val_roll_flags": [
+        {
+          "sample_id": "0002_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0012_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0003_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0010_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0008_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0014_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0007_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0017_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0019_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0008_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0011_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0065_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0063_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0089_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0006_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0004_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0067_023_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0091_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0092_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_002_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0013_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0012_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0014_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0031_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0025_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0032_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0037_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0038_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0041_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0023_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0033_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0026_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0027_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0098_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0024_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0068_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0088_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0086_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0106_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0103_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0074_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0095_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0073_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0052_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0054_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0101_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0104_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0078_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0109_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0096_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0049_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0097_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0044_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0046_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0047_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0083_029_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0084_030_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0055_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0057_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0060_022_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0100_025_08",
+          "fabric_id": "08",
+          "is_defective": true,
+          "is_flagged": true
+        }
+      ],
+      "config_name": "1. Baseline (dual-scale morphology)",
+      "enable_alignment": false,
+      "enable_fft_notch": false,
+      "screening_accuracy_pct": 74.07,
+      "recall_sensitivity_pct": 71.7,
+      "precision_pct": 86.36,
+      "specificity_pct": 78.57,
+      "pooled_dice_defective_pct": 72.59,
+      "pixel_recall_pct": 67.39,
+      "pixel_precision_defective_pct": 78.66,
+      "clean_fp_pct": 0.0035,
+      "confusion_matrix": {
+        "tp": 38,
+        "fn": 15,
+        "fp": 6,
+        "tn": 22
+      },
+      "raw_screening": {
+        "accuracy_pct": 72.84,
+        "recall_pct": 77.36,
+        "fp": 10
+      },
+      "fit_time_s": 3.31,
+      "eval_time_s": 4.85,
+      "total_time_s": 8.16,
+      "per_fabric": {
+        "00": {
+          "gt_px": 2324,
+          "tp": 316,
+          "dice": 0.11215616681455191,
+          "recall": 0.1359724612736661,
+          "precision": 0.09543944427665357,
+          "clean_fp_pct": 0.01819262186618637
+        },
+        "01": {
+          "gt_px": 236917,
+          "tp": 201799,
+          "dice": 0.8486972978656293,
+          "recall": 0.8517708733438293,
+          "precision": 0.8456458243411431,
+          "clean_fp_pct": 0.0
+        },
+        "02": {
+          "gt_px": 8296,
+          "tp": 6182,
+          "dice": 0.556285431476649,
+          "recall": 0.7451783992285439,
+          "precision": 0.44379038047379754,
+          "clean_fp_pct": 0.0
+        },
+        "03": {
+          "gt_px": 57614,
+          "tp": 349,
+          "dice": 0.010496082765672697,
+          "recall": 0.006057555455271289,
+          "precision": 0.039270845054574094,
+          "clean_fp_pct": 0.0
+        },
+        "04": {
+          "gt_px": 4378,
+          "tp": 224,
+          "dice": 0.09041372351160444,
+          "recall": 0.05116491548652353,
+          "precision": 0.3882149046793761,
+          "clean_fp_pct": 0.007495387453874539
+        },
+        "05": {
+          "gt_px": 265,
+          "tp": 100,
+          "dice": 0.3824091778202677,
+          "recall": 0.37735849056603776,
+          "precision": 0.3875968992248062,
+          "clean_fp_pct": 0.0
+        },
+        "06": {
+          "gt_px": 309,
+          "tp": 15,
+          "dice": 0.079155672823219,
+          "recall": 0.04854368932038835,
+          "precision": 0.21428571428571427,
+          "clean_fp_pct": 0.0020491803278688526
+        }
+      },
+      "macro_avg_dice_pct": 29.71,
+      "test_roll_flags": [
+        {
+          "sample_id": "0008_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0009_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0001_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0014_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0007_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0009_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0012_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0010_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0003_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0006_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0020_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0011_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0019_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0007_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0003_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0001_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0003_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0064_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0062_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0090_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0005_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0059_019_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0066_023_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0093_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0080_036_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0011_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0015_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0016_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0010_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0022_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0040_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0034_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0030_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0036_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0029_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0035_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0099_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0042_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0028_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0039_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0070_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0069_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0085_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0087_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0075_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0102_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0072_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0105_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0021_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0053_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0051_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0050_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0077_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0079_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0107_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0108_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0076_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0071_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0081_006_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0043_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0045_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0048_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0082_030_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0094_027_05",
+          "fabric_id": "05",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0058_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0056_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0061_022_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        }
+      ]
+    },
+    {
+      "val_screening": {
+        "accuracy": 70.0,
+        "recall": 65.38,
+        "precision": 85.0,
+        "specificity": 78.57
+      },
+      "val_confusion_matrix": {
+        "tp": 34,
+        "fn": 18,
+        "fp": 6,
+        "tn": 22
+      },
+      "val_pooled_dice_defective_pct": 4.32,
+      "val_roll_flags": [
+        {
+          "sample_id": "0002_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0012_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0003_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0010_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0008_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0014_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0007_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0017_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0019_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0008_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0011_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0065_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0063_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0089_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0006_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0004_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0067_023_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0091_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0092_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_002_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0013_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0012_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0014_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0031_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0025_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0032_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0037_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0038_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0041_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0023_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0033_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0026_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0027_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0098_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0024_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0068_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0088_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0086_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0106_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0103_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0074_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0095_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0073_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0052_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0054_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0101_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0104_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0078_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0109_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0096_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0049_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0097_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0044_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0046_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0047_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0083_029_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0084_030_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0055_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0057_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0060_022_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0100_025_08",
+          "fabric_id": "08",
+          "is_defective": true,
+          "is_flagged": true
+        }
+      ],
+      "config_name": "2. + Web alignment",
+      "enable_alignment": true,
+      "enable_fft_notch": false,
+      "screening_accuracy_pct": 74.07,
+      "recall_sensitivity_pct": 71.7,
+      "precision_pct": 86.36,
+      "specificity_pct": 78.57,
+      "pooled_dice_defective_pct": 74.5,
+      "pixel_recall_pct": 69.84,
+      "pixel_precision_defective_pct": 79.83,
+      "clean_fp_pct": 0.0035,
+      "confusion_matrix": {
+        "tp": 38,
+        "fn": 15,
+        "fp": 6,
+        "tn": 22
+      },
+      "raw_screening": {
+        "accuracy_pct": 72.84,
+        "recall_pct": 77.36,
+        "fp": 10
+      },
+      "fit_time_s": 3.11,
+      "eval_time_s": 5.35,
+      "total_time_s": 8.46,
+      "per_fabric": {
+        "00": {
+          "gt_px": 2324,
+          "tp": 316,
+          "dice": 0.11215616681455191,
+          "recall": 0.1359724612736661,
+          "precision": 0.09543944427665357,
+          "clean_fp_pct": 0.018354413201606776
+        },
+        "01": {
+          "gt_px": 236896,
+          "tp": 206048,
+          "dice": 0.8637391612363684,
+          "recall": 0.8697825205997568,
+          "precision": 0.8577792024511783,
+          "clean_fp_pct": 0.0
+        },
+        "02": {
+          "gt_px": 8296,
+          "tp": 6182,
+          "dice": 0.556285431476649,
+          "recall": 0.7451783992285439,
+          "precision": 0.44379038047379754,
+          "clean_fp_pct": 0.0
+        },
+        "03": {
+          "gt_px": 52848,
+          "tp": 353,
+          "dice": 0.011458992712340329,
+          "recall": 0.006679533757190433,
+          "precision": 0.04028300810224809,
+          "clean_fp_pct": 0.0
+        },
+        "04": {
+          "gt_px": 4378,
+          "tp": 224,
+          "dice": 0.09041372351160444,
+          "recall": 0.05116491548652353,
+          "precision": 0.3882149046793761,
+          "clean_fp_pct": 0.007495387453874539
+        },
+        "05": {
+          "gt_px": 265,
+          "tp": 100,
+          "dice": 0.3824091778202677,
+          "recall": 0.37735849056603776,
+          "precision": 0.3875968992248062,
+          "clean_fp_pct": 0.0
+        },
+        "06": {
+          "gt_px": 309,
+          "tp": 15,
+          "dice": 0.079155672823219,
+          "recall": 0.04854368932038835,
+          "precision": 0.21428571428571427,
+          "clean_fp_pct": 0.0020491803278688526
+        }
+      },
+      "macro_avg_dice_pct": 29.94,
+      "test_roll_flags": [
+        {
+          "sample_id": "0008_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0009_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0001_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0014_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0007_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0009_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0012_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0010_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0003_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0006_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0020_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0011_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0019_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0007_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0003_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0001_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0003_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0064_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0062_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0090_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0005_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0059_019_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0066_023_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0093_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0080_036_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0011_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0015_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0016_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0010_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0022_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0040_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0034_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0030_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0036_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0029_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0035_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0099_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0042_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0028_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0039_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0070_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0069_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0085_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0087_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0075_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0102_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0072_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0105_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0021_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0053_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0051_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0050_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0077_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0079_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0107_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0108_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0076_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0071_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0081_006_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0043_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0045_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0048_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0082_030_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0094_027_05",
+          "fabric_id": "05",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0058_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0056_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0061_022_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        }
+      ]
+    },
+    {
+      "val_screening": {
+        "accuracy": 73.75,
+        "recall": 75.0,
+        "precision": 82.98,
+        "specificity": 71.43
+      },
+      "val_confusion_matrix": {
+        "tp": 39,
+        "fn": 13,
+        "fp": 8,
+        "tn": 20
+      },
+      "val_pooled_dice_defective_pct": 4.37,
+      "val_roll_flags": [
+        {
+          "sample_id": "0002_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0012_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0003_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0010_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0008_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0004_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0014_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0005_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0007_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0017_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0019_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0008_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0011_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0065_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0063_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0089_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0006_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0004_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0067_023_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0091_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0092_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_002_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0013_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0012_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0014_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0031_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0025_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0032_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0037_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0038_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0041_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0023_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0033_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0026_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0027_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0098_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0024_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0068_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0088_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0086_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0106_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0103_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0074_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0095_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0073_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0020_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0052_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0054_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0101_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0104_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0078_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0109_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0096_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0049_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0097_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0044_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0046_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0047_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0083_029_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0084_030_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0055_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0057_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0060_022_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0100_025_08",
+          "fabric_id": "08",
+          "is_defective": true,
+          "is_flagged": true
+        }
+      ],
+      "config_name": "3. + 2D FFT notch",
+      "enable_alignment": false,
+      "enable_fft_notch": true,
+      "screening_accuracy_pct": 79.01,
+      "recall_sensitivity_pct": 79.25,
+      "precision_pct": 87.5,
+      "specificity_pct": 78.57,
+      "pooled_dice_defective_pct": 72.35,
+      "pixel_recall_pct": 67.41,
+      "pixel_precision_defective_pct": 78.07,
+      "clean_fp_pct": 0.0035,
+      "confusion_matrix": {
+        "tp": 42,
+        "fn": 11,
+        "fp": 6,
+        "tn": 22
+      },
+      "raw_screening": {
+        "accuracy_pct": 79.01,
+        "recall_pct": 86.79,
+        "fp": 10
+      },
+      "fit_time_s": 2.97,
+      "eval_time_s": 6.06,
+      "total_time_s": 9.03,
+      "per_fabric": {
+        "00": {
+          "gt_px": 2324,
+          "tp": 316,
+          "dice": 0.11215616681455191,
+          "recall": 0.1359724612736661,
+          "precision": 0.09543944427665357,
+          "clean_fp_pct": 0.01819262186618637
+        },
+        "01": {
+          "gt_px": 236917,
+          "tp": 201799,
+          "dice": 0.8486972978656293,
+          "recall": 0.8517708733438293,
+          "precision": 0.8456458243411431,
+          "clean_fp_pct": 0.0
+        },
+        "02": {
+          "gt_px": 8296,
+          "tp": 6182,
+          "dice": 0.556285431476649,
+          "recall": 0.7451783992285439,
+          "precision": 0.44379038047379754,
+          "clean_fp_pct": 0.0
+        },
+        "03": {
+          "gt_px": 57614,
+          "tp": 412,
+          "dice": 0.012010436252860496,
+          "recall": 0.0071510396778560765,
+          "precision": 0.03747839534249068,
+          "clean_fp_pct": 0.0
+        },
+        "04": {
+          "gt_px": 4378,
+          "tp": 224,
+          "dice": 0.09041372351160444,
+          "recall": 0.05116491548652353,
+          "precision": 0.3882149046793761,
+          "clean_fp_pct": 0.007495387453874539
+        },
+        "05": {
+          "gt_px": 265,
+          "tp": 100,
+          "dice": 0.3824091778202677,
+          "recall": 0.37735849056603776,
+          "precision": 0.3875968992248062,
+          "clean_fp_pct": 0.0
+        },
+        "06": {
+          "gt_px": 309,
+          "tp": 15,
+          "dice": 0.079155672823219,
+          "recall": 0.04854368932038835,
+          "precision": 0.21428571428571427,
+          "clean_fp_pct": 0.0020491803278688526
+        }
+      },
+      "macro_avg_dice_pct": 29.73,
+      "test_roll_flags": [
+        {
+          "sample_id": "0008_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0009_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0001_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0014_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0007_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0009_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0012_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0010_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0003_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0006_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0020_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0011_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0019_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0007_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0003_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0001_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0003_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0064_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0062_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0090_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0005_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0059_019_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0066_023_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0093_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0080_036_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0011_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0015_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0016_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0010_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0022_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0040_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0034_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0030_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0036_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0029_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0035_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0099_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0042_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0028_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0039_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0070_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0069_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0085_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0087_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0075_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0102_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0072_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0105_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0021_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0053_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0051_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0050_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0077_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0079_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0107_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0108_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0076_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0071_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0081_006_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0043_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0045_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0048_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0082_030_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0094_027_05",
+          "fabric_id": "05",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0058_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0056_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0061_022_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        }
+      ]
+    },
+    {
+      "val_screening": {
+        "accuracy": 73.75,
+        "recall": 75.0,
+        "precision": 82.98,
+        "specificity": 71.43
+      },
+      "val_confusion_matrix": {
+        "tp": 39,
+        "fn": 13,
+        "fp": 8,
+        "tn": 20
+      },
+      "val_pooled_dice_defective_pct": 4.38,
+      "val_roll_flags": [
+        {
+          "sample_id": "0002_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0012_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0003_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0010_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0008_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0004_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0014_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0005_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0007_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0017_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0019_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0008_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0011_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0065_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0063_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0089_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0006_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0004_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0067_023_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0091_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0092_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_002_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0013_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0012_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0014_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0031_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0025_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0032_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0037_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0038_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0041_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0023_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0033_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0026_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0027_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0098_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0024_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0068_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0088_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0086_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0106_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0103_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0074_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0095_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0073_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0020_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0052_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0054_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0101_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0104_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0078_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0109_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0096_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0049_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0097_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0044_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0046_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0047_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0083_029_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0084_030_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0055_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0057_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0060_022_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0100_025_08",
+          "fabric_id": "08",
+          "is_defective": true,
+          "is_flagged": true
+        }
+      ],
+      "config_name": "4. Full pipeline",
+      "enable_alignment": true,
+      "enable_fft_notch": true,
+      "screening_accuracy_pct": 79.01,
+      "recall_sensitivity_pct": 79.25,
+      "precision_pct": 87.5,
+      "specificity_pct": 78.57,
+      "pooled_dice_defective_pct": 74.24,
+      "pixel_recall_pct": 69.86,
+      "pixel_precision_defective_pct": 79.2,
+      "clean_fp_pct": 0.0035,
+      "confusion_matrix": {
+        "tp": 42,
+        "fn": 11,
+        "fp": 6,
+        "tn": 22
+      },
+      "raw_screening": {
+        "accuracy_pct": 79.01,
+        "recall_pct": 86.79,
+        "fp": 10
+      },
+      "fit_time_s": 2.92,
+      "eval_time_s": 7.8,
+      "total_time_s": 10.72,
+      "per_fabric": {
+        "00": {
+          "gt_px": 2324,
+          "tp": 316,
+          "dice": 0.11215616681455191,
+          "recall": 0.1359724612736661,
+          "precision": 0.09543944427665357,
+          "clean_fp_pct": 0.018354413201606776
+        },
+        "01": {
+          "gt_px": 236896,
+          "tp": 206048,
+          "dice": 0.8637391612363684,
+          "recall": 0.8697825205997568,
+          "precision": 0.8577792024511783,
+          "clean_fp_pct": 0.0
+        },
+        "02": {
+          "gt_px": 8296,
+          "tp": 6182,
+          "dice": 0.556285431476649,
+          "recall": 0.7451783992285439,
+          "precision": 0.44379038047379754,
+          "clean_fp_pct": 0.0
+        },
+        "03": {
+          "gt_px": 52848,
+          "tp": 416,
+          "dice": 0.01303523587196641,
+          "recall": 0.007871631849833485,
+          "precision": 0.0378905182621368,
+          "clean_fp_pct": 0.0
+        },
+        "04": {
+          "gt_px": 4378,
+          "tp": 224,
+          "dice": 0.09041372351160444,
+          "recall": 0.05116491548652353,
+          "precision": 0.3882149046793761,
+          "clean_fp_pct": 0.007495387453874539
+        },
+        "05": {
+          "gt_px": 265,
+          "tp": 100,
+          "dice": 0.3824091778202677,
+          "recall": 0.37735849056603776,
+          "precision": 0.3875968992248062,
+          "clean_fp_pct": 0.0
+        },
+        "06": {
+          "gt_px": 309,
+          "tp": 15,
+          "dice": 0.079155672823219,
+          "recall": 0.04854368932038835,
+          "precision": 0.21428571428571427,
+          "clean_fp_pct": 0.0020491803278688526
+        }
+      },
+      "macro_avg_dice_pct": 29.96,
+      "test_roll_flags": [
+        {
+          "sample_id": "0008_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0009_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0001_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_05",
+          "fabric_id": "05",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0014_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0007_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0018_000_02",
+          "fabric_id": "02",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0009_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0019_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0012_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0004_000_04",
+          "fabric_id": "04",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0010_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0002_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0003_000_03",
+          "fabric_id": "03",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0008_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0006_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0020_000_00",
+          "fabric_id": "00",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0020_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0011_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0019_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0007_000_06",
+          "fabric_id": "06",
+          "is_defective": false,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0003_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0016_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0017_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0005_000_01",
+          "fabric_id": "01",
+          "is_defective": false,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0001_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0003_002_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0064_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0062_022_00",
+          "fabric_id": "00",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0090_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0005_002_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0059_019_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0066_023_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0093_030_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0080_036_01",
+          "fabric_id": "01",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0011_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0015_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0016_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0010_006_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0022_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0040_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0034_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0030_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0036_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0029_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0035_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0099_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0042_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0028_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0039_019_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0070_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0069_023_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0085_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0087_030_02",
+          "fabric_id": "02",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0075_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0018_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0102_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0072_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0105_010_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0021_016_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0053_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0051_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0050_019_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0077_022_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0079_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0107_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0108_025_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0076_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0071_030_03",
+          "fabric_id": "03",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0081_006_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0043_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0045_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0048_019_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0082_030_04",
+          "fabric_id": "04",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0094_027_05",
+          "fabric_id": "05",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0058_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": true
+        },
+        {
+          "sample_id": "0056_019_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        },
+        {
+          "sample_id": "0061_022_06",
+          "fabric_id": "06",
+          "is_defective": true,
+          "is_flagged": false
+        }
+      ]
+    }
+  ],
+  "recovered_rolls": [
+    {
+      "sample_id": "0050_019_03",
+      "fabric_id": "03",
+      "defect_type": "019",
+      "dice": 2.99
+    },
+    {
+      "sample_id": "0053_019_03",
+      "fabric_id": "03",
+      "defect_type": "019",
+      "dice": 12.24
+    },
+    {
+      "sample_id": "0077_022_03",
+      "fabric_id": "03",
+      "defect_type": "022",
+      "dice": 0.0
+    },
+    {
+      "sample_id": "0079_025_03",
+      "fabric_id": "03",
+      "defect_type": "025",
+      "dice": 0.0
+    }
+  ],
+  "baseline_to_integrated_gain": {
+    "screening_accuracy_gain_pct": 4.94,
+    "recall_gain_pct": 7.55,
+    "missed_rolls_reduced_from_to": [
+      15,
+      11
+    ],
+    "clean_false_alarm_rate_pct": 0.0035,
+    "recovered_rolls_count": 4
+  }
+}

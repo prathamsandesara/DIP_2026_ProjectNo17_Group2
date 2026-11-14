@@ -1,0 +1,5 @@
+Ground Truth \ Predicted,Longitudinal / Warp Flaw (Vertical),Transverse / Weft Flaw (Horizontal),Localized Micro-Puncture / Hole,Photometric Contaminant (dark diffuse region)
+Longitudinal / Warp Flaw (Vertical),12,1,0,0
+Transverse / Weft Flaw (Horizontal),0,10,1,0
+Localized Micro-Puncture / Hole,0,0,23,0
+Photometric Contaminant (dark diffuse region),0,0,0,6
